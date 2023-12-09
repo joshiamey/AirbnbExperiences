@@ -7,6 +7,14 @@ body {
   margin: 0;
 }
 
+.card--gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .nav--bar {
   display: flex;
   height: 70px;
@@ -40,3 +48,28 @@ section {
 .hero--text {
   margin-top: 0;
 }
+
+.card {
+  width: 175px;
+  font-size: 0.75rem;  
+}
+
+.card--img {
+  width: 100%;
+  border-radius: 9px;  
+}
+
+.card--rating {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;  
+}
+
+.card--title {
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
